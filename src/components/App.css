@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App__header {
+  padding: 20px;
+}
+
+.App__title {
+  font-size: 1.5em;
+}
+
+.App__intro {
+  font-size: large;
+}
