@@ -4,6 +4,8 @@
 
 [![License][license-badge]][license-url]
 
+This project was created for personal use to calculate the numerology of words. Feel free to fork or contributing.
+
 ## Installation
 
 ```sh
