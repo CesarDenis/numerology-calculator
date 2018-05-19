@@ -1,10 +1,10 @@
 {
-  "name": "numerologist-calculator",
+  "name": "numerology-calculator",
   "version": "0.1.0",
   "description": "A simple numerology calculator",
   "author": "Cesar Denis <cesar@cesardenis.com> (https://cesardenis.com/)",
-  "homepage": "https://github.com/CesarDenis/numerologist-calculator",
-  "keywords": ["react", "numerologist", "calculator"],
+  "homepage": "https://github.com/CesarDenis/numerology-calculator",
+  "keywords": ["react", "numerology", "calculator"],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CesarDenis/numerologist-calculator.git"
+    "url": "https://github.com/CesarDenis/numerology-calculator.git"
   },
   "bugs": {
-    "url": "https://github.com/CesarDenis/numerologist-calculator/issues"
+    "url": "https://github.com/CesarDenis/numerology-calculator/issues"
   },
   "dependencies": {
     "react": "^16.3.2",
