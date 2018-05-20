@@ -2,6 +2,8 @@
 
 > A simple numerology calculator
 
+[![Travis Status][travis-badge]][travis-url]
+[![Coveralls Status][coveralls-badge]][coveralls-url]
 [![License][license-badge]][license-url]
 
 This project was created for personal use to calculate the numerology of words. Feel free to fork or contributing.
@@ -65,5 +67,9 @@ Distributed under the MIT license. See `LICENSE` for more information.
 
 <!-- Markdown link & img dfn's -->
 
+[travis-badge]: https://travis-ci.org/CesarDenis/numerology-calculator.svg?branch=master&style=flat-square
+[travis-url]: https://travis-ci.org/CesarDenis/numerology-calculator
+[coveralls-badge]: https://coveralls.io/repos/github/CesarDenis/numerology-calculator/badge.svg?branch=master&style=flat-square
+[coveralls-url]: https://coveralls.io/github/CesarDenis/numerology-calculator?branch=master
 [license-badge]: https://img.shields.io/github/license/CesarDenis/numerology-calculator.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT

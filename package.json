@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "description": "A simple numerology calculator",
   "author": "Cesar Denis <cesar@cesardenis.com> (https://cesardenis.com/)",
-  "homepage": "https://github.com/CesarDenis/numerology-calculator",
+  "homepage": "https://CesarDenis.github.io/numerology-calculator",
   "keywords": ["react", "numerology", "calculator"],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
@@ -25,6 +27,7 @@
     "react-scripts": "1.1.4"
   },
   "devDependencies": {
+    "coveralls": "^3.0.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.14.3",
