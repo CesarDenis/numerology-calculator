@@ -39,8 +39,14 @@ class Form extends Component {
   render() {
     return (
       <div className="Form">
+        <label for="words" className="Form__label">
+          Type the word you want to calculate (a-z, 0-9 only)
+        </label>
         <input
+          id="words"
+          class="Form__text"
           type="text"
+          placeholder="Enter word"
           value={this.state.inputName}
           onChange={this._onChangeName.bind(this)}
         />
