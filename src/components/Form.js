@@ -50,12 +50,14 @@ class Form extends Component {
           value={this.state.inputName}
           onChange={this._onChangeName.bind(this)}
         />
-        <div className="Form__result">
-          <p>
-            The number is:{' '}
-            <span>{this._calculateString(this.state.inputName)}</span>
-          </p>
-        </div>
+        {this.state.inputName !== '' && (
+          <div className="Form__result">
+            <p>
+              The number is{' '}
+              <span>{this._calculateString(this.state.inputName)}</span>
+            </p>
+          </div>
+        )}
       </div>
     );
   }
