@@ -29,6 +29,10 @@
 }
 
 .Form__button {
+  cursor: pointer;
+}
+
+.Form__button {
   background-image: linear-gradient(-180deg, #f55196 0%, #9f0439 100%);
   border-radius: 0 4px 4px 0;
   border: none;

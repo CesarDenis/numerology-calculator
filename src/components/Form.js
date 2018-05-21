@@ -8,6 +8,10 @@ class Form extends Component {
     this.state = { inputName: '' };
   }
 
+  _onClickClear() {
+    this.setState({ inputName: '' });
+  }
+
   _onChangeName(event) {
     this.setState({ inputName: event.target.value });
   }
@@ -54,7 +58,8 @@ class Form extends Component {
         <button
           className="Form__button"
           type="button"
-          aria-label="Clear the input text">
+          aria-label="Clear the input text"
+          onClick={this._onClickClear.bind(this)}>
           <img src={icon} className="Form__button__icon" alt="Icon of rest" />
         </button>
         <div className="Form__result">
