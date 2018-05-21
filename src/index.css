@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('assets/images/patterns-symbol.png'),
     url('assets/images/texture-noise.png'),
@@ -9,6 +15,8 @@ body {
   font-family: 'source-sans-pro', sans-serif;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
