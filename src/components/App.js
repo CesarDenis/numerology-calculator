@@ -12,6 +12,7 @@ class App extends Component {
           </h1>
         </header>
         <Form />
+        <Typekit kitId="xwz0iog" />
       </div>
     );
   }
