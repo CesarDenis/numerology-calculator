@@ -69,6 +69,10 @@
     padding: 23px 20px;
   }
 
+  .Form__button__icon {
+    width: 23px;
+  }
+
   .Form__result span {
     font-size: 3rem;
   }
