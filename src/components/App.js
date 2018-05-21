@@ -11,7 +11,6 @@ class App extends Component {
             Welcome to the <span>Numerology</span> <strpng>Calculator</strpng>
           </h1>
         </header>
-
         <Form />
       </div>
     );
