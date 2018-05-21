@@ -1,5 +1,24 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 body {
+  background-image: url('assets/images/patterns-symbol.png'),
+    url('assets/images/texture-noise.png'),
+    linear-gradient(225deg, #da7ef0 0%, #1e4f96 42%, #170b39 100%);
+  background-position: top left, top left, top right;
+  background-repeat: repeat, repeat, repeat-y;
+  background-size: 60px, 500px, 100% 100%;
+  color: white;
+  font-family: 'source-sans-pro', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
 }

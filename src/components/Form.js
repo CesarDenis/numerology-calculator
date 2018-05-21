@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import icon from '../assets/images/icon-reset.svg';
 import './Form.css';
 
 class Form extends Component {
   constructor() {
     super();
     this.state = { inputName: '' };
+  }
+
+  _onClickClear() {
+    this.setState({ inputName: '' });
   }
 
   _onChangeName(event) {
@@ -50,14 +55,21 @@ class Form extends Component {
           value={this.state.inputName}
           onChange={this._onChangeName.bind(this)}
         />
-        {this.state.inputName !== '' && (
-          <div className="Form__result">
+        <button
+          className="Form__button"
+          type="button"
+          aria-label="Clear the input text"
+          onClick={this._onClickClear.bind(this)}>
+          <img src={icon} className="Form__button__icon" alt="Icon of rest" />
+        </button>
+        <div className="Form__result">
+          {this.state.inputName !== '' && (
             <p>
               The number is{' '}
               <span>{this._calculateString(this.state.inputName)}</span>
             </p>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     );
   }

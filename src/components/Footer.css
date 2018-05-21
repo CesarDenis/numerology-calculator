@@ -1,0 +1,65 @@
+.Footer {
+  font-size: 1rem;
+  grid-area: footer;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Footer__credits {
+  margin: 1rem auto;
+  width: 190px;
+}
+
+.Footer__love {
+  display: inline-block;
+  position: relative;
+  top: 0.1em;
+  font-size: 1.6em;
+  color: #f55196;
+  transform: scale(0.9);
+  animation: love 0.5s infinite linear alternate-reverse;
+}
+
+.Footer__link {
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+.Footer__link--blue {
+  color: rgba(53, 146, 246, 1);
+}
+
+.Footer__link--blue:hover {
+  color: rgba(53, 146, 246, 0.7);
+}
+
+.Footer__link--yellow {
+  color: rgba(255, 198, 0, 1);
+}
+
+.Footer__link--yellow:hover {
+  color: rgba(255, 198, 0, 0.7);
+}
+
+@media (min-width: 576px) {
+  .Footer__credits {
+    width: auto;
+  }
+}
+
+@-webkit-keyframes love {
+  to {
+    -webkit-transform: scale(1.1);
+  }
+}
+
+@-moz-keyframes love {
+  to {
+    -moz-transform: scale(1.1);
+  }
+}
+
+@keyframes love {
+  to {
+    transform: scale(1.1);
+  }
+}
