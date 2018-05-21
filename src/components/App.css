@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  grid-area: 'content';
+  grid-area: content;
 }
 
 .App__header {
@@ -56,5 +56,12 @@
 
   .App__title strong {
     font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .App {
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
