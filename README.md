@@ -46,8 +46,13 @@ Builds the app for production to the build folder. It correctly bundles React in
 
 ## Release History
 
-* 0.0.1
-  * Work in progress
+### 0.0.2
+
+- Refactor to CRA v2.0
+
+### 0.0.1
+
+- Work in progress
 
 ## Meta
 
@@ -72,4 +77,4 @@ Distributed under the MIT license. See `LICENSE` for more information.
 [coveralls-badge]: https://coveralls.io/repos/github/CesarDenis/numerology-calculator/badge.svg?branch=master&style=flat-square
 [coveralls-url]: https://coveralls.io/github/CesarDenis/numerology-calculator?branch=master
 [license-badge]: https://img.shields.io/github/license/CesarDenis/numerology-calculator.svg?style=flat-square
-[license-url]: https://opensource.org/licenses/MIT
+[license-url]: https://cesardenis.mit-license.org/
