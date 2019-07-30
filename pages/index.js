@@ -9,4 +9,3 @@ const Title = styled.h1`
 const Home = () => <Title>Hello World!</Title>;
 
 export default Home;
-
