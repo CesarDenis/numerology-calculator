@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
   },
   parser: 'babel-eslint',
-  extends: ['airbnb'],
+  extends: ['airbnb', 'prettier', 'prettier/react'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -19,6 +19,8 @@ module.exports = {
   plugins: ['eslint-comments', 'prettier', 'react', 'react-hooks', 'jest'],
   rules: {
     // General
+    'import/prefer-default-export': 0,
+    'react/jsx-one-expression-per-line': 0,
     'react/jsx-filename-extension': [
       2,
       {

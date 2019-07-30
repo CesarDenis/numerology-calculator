@@ -2,11 +2,7 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import { ThemeProvider } from 'styled-components';
 
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-};
+import theme, { GlobalStyle } from '../themes';
 
 class MyApp extends App {
   render() {
@@ -14,7 +10,10 @@ class MyApp extends App {
     return (
       <Container>
         <ThemeProvider theme={theme}>
-          <Component {...pageProps} />
+          <React.Fragment>
+            <GlobalStyle />
+            <Component {...pageProps} />
+          </React.Fragment>
         </ThemeProvider>
       </Container>
     );
