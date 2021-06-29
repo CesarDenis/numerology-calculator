@@ -71,7 +71,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
-    "coveralls": "^3.0.1",
+    "coveralls": "^3.1.1",
     "husky": "^0.14.3",
     "prettier": "^1.12.1",
     "pretty-quick": "^1.10.0"
